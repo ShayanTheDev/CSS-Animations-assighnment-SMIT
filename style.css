@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    background: #a9acc2;
+    background: radial-gradient(circle, rgba(169, 172, 194, 1) 0%, rgba(255, 253, 208, 1) 100%); 
+}
+
+.container {
+    background-color: red;
+    height: 180px;
+    width: 227px;
+    animation-name: SmitAssighnment;
+    animation-delay: 2s;
+    position: relative;
+    animation-duration: 5s;
+    border: 2px solid black;
+    border-radius: 70%;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.text h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+@keyframes SmitAssighnment {
+    0% {
+        background-color: red;
+        top: 0%;
+        left: 0%;
+    }
+
+    25% {
+        background-color: yellow;
+        top: 0%;
+        left: 85%;
+    }
+
+    50% {
+        background-color: blue;
+        top: 74%;
+        left: 85%;
+
+    }
+
+    75% {
+        background-color: green;
+        left: 0%;
+        top: 74%;
+
+    }
+
+    100% {
+        background-color: red;
+        top: 0%;
+
+    }
+}
